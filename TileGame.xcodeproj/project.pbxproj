@@ -25,6 +25,8 @@
 		BF561557207FF53700E9DD77 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF56154E207FF53700E9DD77 /* nanopb.framework */; };
 		BF56155A207FF6AD00E9DD77 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF561559207FF6AD00E9DD77 /* Database.swift */; };
 		BF56155C2080063A00E9DD77 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56155B2080063A00E9DD77 /* Menu.swift */; };
+		BF80600620916BE7007165D6 /* Infantry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF80600520916BE7007165D6 /* Infantry.swift */; };
+		BF80600920918252007165D6 /* Infantry.atlas in Resources */ = {isa = PBXBuildFile; fileRef = BF80600820918252007165D6 /* Infantry.atlas */; };
 		BFA635CE207D62E200471E8B /* BaseTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = BFA635CD207D62E200471E8B /* BaseTileSet.sks */; };
 		BFA635D0207D6E6800471E8B /* Tank.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA635CF207D6E6800471E8B /* Tank.swift */; };
 		BFAD2ECA207822F400092285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD2EC9207822F400092285 /* AppDelegate.swift */; };
@@ -76,6 +78,8 @@
 		BF561558207FF57200E9DD77 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
 		BF561559207FF6AD00E9DD77 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		BF56155B2080063A00E9DD77 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		BF80600520916BE7007165D6 /* Infantry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infantry.swift; sourceTree = "<group>"; };
+		BF80600820918252007165D6 /* Infantry.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Infantry.atlas; sourceTree = "<group>"; };
 		BFA635CD207D62E200471E8B /* BaseTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BaseTileSet.sks; sourceTree = "<group>"; };
 		BFA635CF207D6E6800471E8B /* Tank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tank.swift; sourceTree = "<group>"; };
 		BFAD2EC6207822F400092285 /* TileGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TileGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,6 +171,7 @@
 		BFAD2EC8207822F400092285 /* TileGame */ = {
 			isa = PBXGroup;
 			children = (
+				BF80600820918252007165D6 /* Infantry.atlas */,
 				BF561527207FF30700E9DD77 /* TileGameTests */,
 				BFAD2EC9207822F400092285 /* AppDelegate.swift */,
 				BFAD2ECB207822F400092285 /* GameScene.sks */,
@@ -184,6 +189,7 @@
 				BF31B517207C3C89002E1E07 /* Unit.swift */,
 				BFA635CD207D62E200471E8B /* BaseTileSet.sks */,
 				BFA635CF207D6E6800471E8B /* Tank.swift */,
+				BF80600520916BE7007165D6 /* Infantry.swift */,
 				BF561559207FF6AD00E9DD77 /* Database.swift */,
 				BF561548207FF53600E9DD77 /* FirebaseAnalytics.framework */,
 				BF561549207FF53600E9DD77 /* FirebaseCore.framework */,
@@ -329,6 +335,7 @@
 				BF561528207FF30800E9DD77 /* TileGameTests in Resources */,
 				BFAD2ED7207822F400092285 /* Assets.xcassets in Resources */,
 				BFA635CE207D62E200471E8B /* BaseTileSet.sks in Resources */,
+				BF80600920918252007165D6 /* Infantry.atlas in Resources */,
 				BFAD2EDA207822F400092285 /* LaunchScreen.storyboard in Resources */,
 				BFAD2ECE207822F400092285 /* Actions.sks in Resources */,
 			);
@@ -362,6 +369,7 @@
 				BFAD2ED0207822F400092285 /* GameScene.swift in Sources */,
 				BFAD2ED2207822F400092285 /* GameViewController.swift in Sources */,
 				BF56155A207FF6AD00E9DD77 /* Database.swift in Sources */,
+				BF80600620916BE7007165D6 /* Infantry.swift in Sources */,
 				BFAD2ECA207822F400092285 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

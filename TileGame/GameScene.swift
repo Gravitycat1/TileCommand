@@ -17,8 +17,10 @@ class GameScene: SKScene {
     var sandTileMapNode:SKTileMapNode = SKTileMapNode()
     var waterTileMapNode:SKTileMapNode = SKTileMapNode()
     
+    //animate
+    private var infantry = SKSpriteNode()
+    private var IntWalkFrames: [SKTexture] = []
     
-
     override func didMove(to view: SKView) {
         
         for node in self.children {
@@ -32,6 +34,11 @@ class GameScene: SKScene {
                 waterTileMapNode = node as! SKTileMapNode
             }
         }
+        
+        buildInt()
+        animate()
+        
+        
         
         for col in 0..<sandTileMapNode.numberOfColumns {
             for row in 0..<sandTileMapNode.numberOfRows {
@@ -56,7 +63,6 @@ class GameScene: SKScene {
         }
         
         
-        
     }
     
     
@@ -68,9 +74,40 @@ class GameScene: SKScene {
         if let tile:SKTileDefinition = groundTileMapNode.tileDefinition(atColumn: column, row: row){
             if let tileBoolData = tile.userData?.value(forKey: "isCenter")as? Bool{
                 print("you found a center ground tile")
+                
+                
             }
         }
         
+        
+        
+        
+    }
+    
+    func buildInt(){
+        print("building")
+        let IntAnimatedAtlas = SKTextureAtlas(named:"Infantry")
+        var walkFrames: [SKTexture] = []
+        
+        let numImages = IntAnimatedAtlas.textureNames.count
+        for i in 1...numImages{
+            let IntTextureName = "Infantry_\(i-1)"
+            walkFrames.append(IntAnimatedAtlas.textureNamed(IntTextureName))
+        }
+        IntWalkFrames = walkFrames
+        
+        let firstFrameTexture = IntWalkFrames[0]
+        infantry = SKSpriteNode(texture:firstFrameTexture)
+        infantry.position = CGPoint(x: frame.midX, y:frame.midY)
+        addChild(infantry)
+    }
+    func animate() {
+        print("anim")
+        infantry.run(SKAction.repeatForever(SKAction.animate(with: IntWalkFrames,
+                                                             timePerFrame: 0.1,
+                                                             resize:false,
+                                                             restore:true)),
+                     withKey: "InfantryMarch")
     }
     
 

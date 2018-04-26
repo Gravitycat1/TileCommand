@@ -35,6 +35,10 @@ class GameViewController: UIViewController {
         view.addSubview(button)
         
         self.view = view
+        
+        
+        
+        
     }
     
     @IBAction func PlayGame(){
@@ -48,9 +52,19 @@ class GameViewController: UIViewController {
         skView.presentScene(scene)
         self.view = skView
         
+        //addPanGesture(view: skView)
+        
     }
     
-    
+    func addPanGesture(view: UIView){
+        
+        let pan = UIPanGestureRecognizer(target:self, action: #selector
+            (GameViewController.handlePan(sender:)))
+        view.addGestureRecognizer(pan)
+    }
+    @objc func handlePan(sender: UIPanGestureRecognizer){
+        
+    }
 
     override var shouldAutorotate: Bool {
         return true

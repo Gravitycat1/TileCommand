@@ -26,12 +26,12 @@ class Unit: GameObject{
     var UnitState :State
     
     
-    override init(imageNamed: String){
+     init(){
         
-        let tex = SKTexture(imageNamed: imageNamed)
+        
     UnitState = State.ACTIVE
         
-        super.init(imageNamed: imageNamed)
+        super.init(imageNamed: "ted" )
     }
     
     override func update(_ deltaTime: TimeInterval ){
