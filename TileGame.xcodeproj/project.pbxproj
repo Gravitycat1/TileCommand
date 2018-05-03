@@ -27,6 +27,7 @@
 		BF56155C2080063A00E9DD77 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56155B2080063A00E9DD77 /* Menu.swift */; };
 		BF80600620916BE7007165D6 /* Infantry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF80600520916BE7007165D6 /* Infantry.swift */; };
 		BF80600920918252007165D6 /* Infantry.atlas in Resources */ = {isa = PBXBuildFile; fileRef = BF80600820918252007165D6 /* Infantry.atlas */; };
+		BF84648B209BC3E3000916DB /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF84648A209BC3E2000916DB /* GoogleMobileAds.framework */; };
 		BFA635CE207D62E200471E8B /* BaseTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = BFA635CD207D62E200471E8B /* BaseTileSet.sks */; };
 		BFA635D0207D6E6800471E8B /* Tank.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA635CF207D6E6800471E8B /* Tank.swift */; };
 		BFAD2ECA207822F400092285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD2EC9207822F400092285 /* AppDelegate.swift */; };
@@ -80,6 +81,7 @@
 		BF56155B2080063A00E9DD77 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		BF80600520916BE7007165D6 /* Infantry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infantry.swift; sourceTree = "<group>"; };
 		BF80600820918252007165D6 /* Infantry.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Infantry.atlas; sourceTree = "<group>"; };
+		BF84648A209BC3E2000916DB /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		BFA635CD207D62E200471E8B /* BaseTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BaseTileSet.sks; sourceTree = "<group>"; };
 		BFA635CF207D6E6800471E8B /* Tank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tank.swift; sourceTree = "<group>"; };
 		BFAD2EC6207822F400092285 /* TileGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TileGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +109,7 @@
 			files = (
 				BF561554207FF53700E9DD77 /* FirebaseNanoPB.framework in Frameworks */,
 				BF561543207FF44D00E9DD77 /* StoreKit.framework in Frameworks */,
+				BF84648B209BC3E3000916DB /* GoogleMobileAds.framework in Frameworks */,
 				BF56154F207FF53700E9DD77 /* FirebaseCoreDiagnostics.framework in Frameworks */,
 				BF561551207FF53700E9DD77 /* FirebaseAnalytics.framework in Frameworks */,
 				BF561553207FF53700E9DD77 /* FirebaseInstanceID.framework in Frameworks */,
@@ -191,6 +194,7 @@
 				BFA635CF207D6E6800471E8B /* Tank.swift */,
 				BF80600520916BE7007165D6 /* Infantry.swift */,
 				BF561559207FF6AD00E9DD77 /* Database.swift */,
+				BF84648A209BC3E2000916DB /* GoogleMobileAds.framework */,
 				BF561548207FF53600E9DD77 /* FirebaseAnalytics.framework */,
 				BF561549207FF53600E9DD77 /* FirebaseCore.framework */,
 				BF561546207FF53600E9DD77 /* FirebaseCoreDiagnostics.framework */,
