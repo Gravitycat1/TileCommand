@@ -28,6 +28,9 @@
 		BF80600620916BE7007165D6 /* Infantry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF80600520916BE7007165D6 /* Infantry.swift */; };
 		BF80600920918252007165D6 /* Infantry.atlas in Resources */ = {isa = PBXBuildFile; fileRef = BF80600820918252007165D6 /* Infantry.atlas */; };
 		BF84648B209BC3E3000916DB /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF84648A209BC3E2000916DB /* GoogleMobileAds.framework */; };
+		BF84648D209BD416000916DB /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = BF84648C209BD416000916DB /* Explosion.sks */; };
+		BF846490209BD511000916DB /* soldierRain.sks in Resources */ = {isa = PBXBuildFile; fileRef = BF84648E209BD511000916DB /* soldierRain.sks */; };
+		BF846491209BD511000916DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF84648F209BD511000916DB /* Assets.xcassets */; };
 		BFA635CE207D62E200471E8B /* BaseTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = BFA635CD207D62E200471E8B /* BaseTileSet.sks */; };
 		BFA635D0207D6E6800471E8B /* Tank.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA635CF207D6E6800471E8B /* Tank.swift */; };
 		BFAD2ECA207822F400092285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD2EC9207822F400092285 /* AppDelegate.swift */; };
@@ -82,6 +85,9 @@
 		BF80600520916BE7007165D6 /* Infantry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infantry.swift; sourceTree = "<group>"; };
 		BF80600820918252007165D6 /* Infantry.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Infantry.atlas; sourceTree = "<group>"; };
 		BF84648A209BC3E2000916DB /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		BF84648C209BD416000916DB /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		BF84648E209BD511000916DB /* soldierRain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = soldierRain.sks; sourceTree = "<group>"; };
+		BF84648F209BD511000916DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFA635CD207D62E200471E8B /* BaseTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BaseTileSet.sks; sourceTree = "<group>"; };
 		BFA635CF207D6E6800471E8B /* Tank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tank.swift; sourceTree = "<group>"; };
 		BFAD2EC6207822F400092285 /* TileGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TileGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +159,8 @@
 		BFAD2EBD207822F400092285 = {
 			isa = PBXGroup;
 			children = (
+				BF84648E209BD511000916DB /* soldierRain.sks */,
+				BF84648F209BD511000916DB /* Assets.xcassets */,
 				BFAD2EC8207822F400092285 /* TileGame */,
 				BFAD2EE3207822F400092285 /* TileGameTests */,
 				BFAD2EEE207822F400092285 /* TileGameUITests */,
@@ -174,6 +182,7 @@
 		BFAD2EC8207822F400092285 /* TileGame */ = {
 			isa = PBXGroup;
 			children = (
+				BF84648C209BD416000916DB /* Explosion.sks */,
 				BF80600820918252007165D6 /* Infantry.atlas */,
 				BF561527207FF30700E9DD77 /* TileGameTests */,
 				BFAD2EC9207822F400092285 /* AppDelegate.swift */,
@@ -333,6 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF846490209BD511000916DB /* soldierRain.sks in Resources */,
 				BFAD2ED5207822F400092285 /* Main.storyboard in Resources */,
 				BF561545207FF4DD00E9DD77 /* GoogleService-Info.plist in Resources */,
 				BFAD2ECC207822F400092285 /* GameScene.sks in Resources */,
@@ -340,7 +350,9 @@
 				BFAD2ED7207822F400092285 /* Assets.xcassets in Resources */,
 				BFA635CE207D62E200471E8B /* BaseTileSet.sks in Resources */,
 				BF80600920918252007165D6 /* Infantry.atlas in Resources */,
+				BF84648D209BD416000916DB /* Explosion.sks in Resources */,
 				BFAD2EDA207822F400092285 /* LaunchScreen.storyboard in Resources */,
+				BF846491209BD511000916DB /* Assets.xcassets in Resources */,
 				BFAD2ECE207822F400092285 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

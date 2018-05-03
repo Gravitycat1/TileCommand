@@ -42,12 +42,13 @@ class GameViewController: UIViewController {
         bannerView = GADBannerView(adSize: kGADAdSizeBanner)
         bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
         bannerView.rootViewController = self
-        bannerView.load(GADRequest())
         
         addBannerViewToView(bannerView)
         
+        let soldierRain = SK
         
     }
+    
     
     @IBAction func PlayGame(){
         let scene = SKScene(fileNamed: "GameScene")
