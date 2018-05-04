@@ -42,10 +42,10 @@ class GameViewController: UIViewController {
         bannerView = GADBannerView(adSize: kGADAdSizeBanner)
         bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
         bannerView.rootViewController = self
-        
+        //banner was working
         addBannerViewToView(bannerView)
         
-        let soldierRain = SK
+        
         
     }
     
